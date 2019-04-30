@@ -1,0 +1,66 @@
+{
+  "uid" : "29707f0887658936",
+  "name" : "test_login.TestLogin.test_login3",
+  "fullName" : "scripts.test_login.TestLogin.test_login3",
+  "historyId" : "483259d4995adf04cb947aa0e3fe7231",
+  "time" : {
+    "start" : 1556608084057,
+    "stop" : 1556608084129,
+    "duration" : 72
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <scripts.test_login.TestLogin object at 0x1084c6a90>\n\n    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)\n    def test_login3(self):\n        print(\"test_login3\")\n>       assert 0\nE       assert 0\n\nscripts/test_login.py:16: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "itheima-2.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "thread",
+    "value" : "5893-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "scripts"
+  }, {
+    "name" : "testClass",
+    "value" : "scripts"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_login.TestLogin.test_login3"
+  }, {
+    "name" : "package",
+    "value" : "scripts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "29707f0887658936.json",
+  "parameterValues" : [ ]
+}

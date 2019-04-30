@@ -1,0 +1,66 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1556608084047" stop="1556608084131">
+  <name>scripts</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1556608084047" status="passed" stop="1556608084051">
+      <name>test_login.TestLogin.test_login1</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="5893-MainThread"/>
+        <label name="host" value="itheima-2.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1556608084053" status="passed" stop="1556608084055">
+      <name>test_login.TestLogin.test_login2</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="5893-MainThread"/>
+        <label name="host" value="itheima-2.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1556608084057" status="failed" stop="1556608084129">
+      <name>test_login.TestLogin.test_login3</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;scripts.test_login.TestLogin object at 0x1084c6a90&gt;
+
+    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
+    def test_login3(self):
+        print("test_login3")
+&gt;       assert 0
+E       assert 0
+
+scripts/test_login.py:16: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="5893-MainThread"/>
+        <label name="host" value="itheima-2.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1556608084130" status="passed" stop="1556608084131">
+      <name>test_login.TestLogin.test_login4</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="5893-MainThread"/>
+        <label name="host" value="itheima-2.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
